@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="text-xl font-serif font-bold text-white">CognixAI</span>
             </div>
             <p className="mt-4 text-sm leading-6">
-              CognixAI是一个创新型研究平台，致力于人类决策建模、多智能体模拟和脑机接口多模态融合研究。
+              CogniAND是一个创新型研究平台，致力于人类决策建模、多智能体模拟和脑机接口多模态融合研究。
             </p>
             <div className="mt-6 flex space-x-4">
               <SocialIcon href="#" icon="github" />
