@@ -1,6 +1,28 @@
 {
   "experiments": [
-    
+    {
+      "id": 0,
+      "title": "Enhanced Multi-Armed Bandit Task 增强版多臂老虎机任务：人机决策对比研究",
+      "authors": "张烁, CogniAND研究团队",
+      "description": "这是一个创新的多臂老虎机实验，集成了大语言模型来模拟人类决策过程。实验支持人机对比模式，让参与者与AI同时进行决策，实时比较策略差异。通过多种AI模型（GPT-4、Claude-3、Gemini等）的集成，研究人类与人工智能在探索-利用权衡中的行为差异，探索AI的决策策略与人类直觉的对比。实验还支持动态奖励结构、社会比较反馈和情感反馈等高级功能。",
+      "category": "behavioral",
+      "tags": ["人机对比", "大语言模型", "探索-利用", "决策策略", "AI行为", "实时比较", "多模态反馈"],
+      "duration": "20-30 分钟",
+      "difficulty": "中等",
+      "citations": 0,
+      "isPopular": true,
+      "version": "2.0",
+      "releaseDate": "2024-12-01",
+      "lastUpdated": "2024-12-01",
+      "relatedPapers": [
+        "Human-AI Collaboration in Multi-Armed Bandit Problems: A Comparative Study",
+        "Large Language Models as Decision-Making Agents: Behavioral Analysis in Uncertain Environments"
+      ],
+      "license": "CC BY-NC-SA 4.0",
+      "repository": "https://github.com/CogniAND/enhanced-bandit-task",
+      "contactInfo": "contact@CogniAND.research",
+      "experimentPath": "/experiments/enhanced-bandit-task"
+    },
     {
       "id": 1,
       "title": "Multi-Armed Bandit Task 奖励比较与社会比较对探索策略影响的多臂老虎机任务",
@@ -16,38 +38,38 @@
       "releaseDate": "2024-06-01",
       "lastUpdated": "2024-06-01",
       "relatedPapers": [
-      "需要你提供相关的论文标题 1",
-      "需要你提供相关的论文标题 2"
+        "需要你提供相关的论文标题 1",
+        "需要你提供相关的论文标题 2"
       ],
       "license": "CC BY-NC-SA 4.0",
       "repository": "需要你提供实际的代码仓库链接",
       "contactInfo": "需要你提供联系邮箱",
       "experimentPath": "/experiments/reward-social-comparison-bandit-task"
-      },
-  {
-    "id": 1.1,
-    "title": "Iowa Gambling Task 爱荷华赌博任务",
-    "authors": "张明、李华、王强",
-    "description": "在这个经典的经济学实验中，参与者需要从四副牌中进行选择。每副牌都有不同的奖惩机制,有些牌组长期来看会带来收益,而另一些则会导致损失。这个任务用于研究参与者在不确定条件下的决策能力。",
-    "category": "behavioral",
-    "tags": ["决策", "风险评估", "奖惩学习"],
-    "duration": "15-20分钟",
-    "difficulty": "简单",
-    "citations": 2480,
-    "isPopular": true,
-    "version": "1.0",
-    "releaseDate": "2022-01-15", 
-    "lastUpdated": "2023-05-20",
-    "relatedPapers": [
-      "Decision-making under uncertainty: The Iowa Gambling Task",
-      "Neural basis of decision-making in the Iowa Gambling Task"
-    ],
-    "license": "CC BY-NC-SA 4.0",
-    "repository": "https://github.com/cognixai/iowa-gambling-task",
-    "contactInfo": "contact@cognixai.research",
-    "experimentPath": "/experiments/iowa-gambling-task"
-  },
-  {
+    },
+    {
+      "id": 1.1,
+      "title": "Iowa Gambling Task 爱荷华赌博任务",
+      "authors": "张明、李华、王强",
+      "description": "在这个经典的经济学实验中，参与者需要从四副牌中进行选择。每副牌都有不同的奖惩机制,有些牌组长期来看会带来收益,而另一些则会导致损失。这个任务用于研究参与者在不确定条件下的决策能力。",
+      "category": "behavioral",
+      "tags": ["决策", "风险评估", "奖惩学习"],
+      "duration": "15-20分钟",
+      "difficulty": "简单",
+      "citations": 2480,
+      "isPopular": true,
+      "version": "1.0",
+      "releaseDate": "2022-01-15", 
+      "lastUpdated": "2023-05-20",
+      "relatedPapers": [
+        "Decision-making under uncertainty: The Iowa Gambling Task",
+        "Neural basis of decision-making in the Iowa Gambling Task"
+      ],
+      "license": "CC BY-NC-SA 4.0",
+      "repository": "https://github.com/CogniAND/iowa-gambling-task",
+      "contactInfo": "contact@CogniAND.research",
+      "experimentPath": "/experiments/iowa-gambling-task"
+    },
+    {
       "id": 2,
       "title": "Delay Discounting Task 延迟折扣任务",
       "authors": "张明、李华、王强",
@@ -66,8 +88,8 @@
         "Neurocognitive mechanisms of delay discounting"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "https://github.com/cognixai/delay-discounting-task",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/delay-discounting-task",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/delay-discounting-task"
     },
     {
@@ -89,8 +111,8 @@
         "Neural correlates of risk taking in the Balloon Analogue Risk Task"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "https://github.com/cognixai/balloon-risk-task",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/balloon-risk-task",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/balloon-risk-task"
     },
     {
@@ -112,8 +134,8 @@
         "Neural mechanisms underlying the framing effect"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "https://github.com/cognixai/framing-effect-tasks",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/framing-effect-tasks",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/framing-effect-tasks"
     },
     {
@@ -135,8 +157,8 @@
         "Neural mechanisms of reward-based learning in the multi-armed bandit task"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "https://github.com/cognixai/multi-armed-bandit-task",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/multi-armed-bandit-task",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/multi-armed-bandit-task"
     },
     {
@@ -158,8 +180,8 @@
         "Neural basis of fairness and decision-making in the ultimatum game"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "https://github.com/cognixai/ultimatum-game",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/ultimatum-game",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/ultimatum-game"
     },
     {
@@ -181,8 +203,8 @@
         "Neural correlates of trust and decision-making in the trust game"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "https://github.com/cognixai/trust-game",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/trust-game",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/trust-game"
     },
     {
@@ -204,8 +226,8 @@
         "Neural mechanisms underlying altruistic behavior in the dictator game"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "https://github.com/cognixai/dictator-game",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/dictator-game",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/dictator-game"
     },
     {
@@ -227,8 +249,8 @@
         "Neural basis of cooperation and decision-making in the stag hunt game"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "https://github.com/cognixai/stag-hunt",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/stag-hunt",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/stag-hunt"
     },
     {
@@ -250,8 +272,8 @@
         "Neural mechanisms of risk-taking and decision-making in the chicken game"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "https://github.com/cognixai/chicken-game",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/chicken-game",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/chicken-game"
     },
     {
@@ -273,8 +295,8 @@
         "Neural basis of decision-making in the prisoner's dilemma"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "https://github.com/cognixai/prisoners-dilemma",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/prisoners-dilemma",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/prisoners-dilemma"
     },
     {
@@ -296,8 +318,8 @@
         "Neural mechanisms of third-party decision-making in punishment paradigms"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "<url id=\"d0pdcijmtofe44fme45g\" type=\"url\" status=\"failed\" title=\"\" wc=\"0\">https://github.com/cognixai/third-party-punishment</url> ",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/third-party-punishment",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/third-party-punishment"
     },
     {
@@ -319,8 +341,8 @@
         "Neural correlates of moral dilemmas in the trolley problem"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "<url id=\"d0pdcijmtofe44fme45g\" type=\"url\" status=\"failed\" title=\"\" wc=\"0\">https://github.com/cognixai/trolley-problem</url> ",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/trolley-problem",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/trolley-problem"
     },
     {
@@ -342,8 +364,8 @@
         "Neural mechanisms of cooperation and decision-making in public goods games"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "<url id=\"d0pdcijmtofe44fme45g\" type=\"url\" status=\"failed\" title=\"\" wc=\"0\">https://github.com/cognixai/public-goods-game</url> ",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/public-goods-game",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/public-goods-game"
     },
     {
@@ -365,8 +387,8 @@
         "Neural mechanisms of social decision-making in social discounting tasks"
       ],
       "license": "CC BY-NC-SA 4.0",
-      "repository": "<url id=\"d0pdcijmtofe44fme45g\" type=\"url\" status=\"failed\" title=\"\" wc=\"0\">https://github.com/cognixai/social-discounting-task</url> ",
-      "contactInfo": "contact@cognixai.research",
+      "repository": "https://github.com/CogniAND/social-discounting-task",
+      "contactInfo": "contact@CogniAND.research",
       "experimentPath": "/experiments/social-discounting-task"
     }
   ]

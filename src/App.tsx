@@ -21,6 +21,7 @@ import TrolleyProblem from './experiments/TrolleyProblem';
 import PublicGoodsGame from './experiments/PublicGoodsGame';
 import SocialDiscountingTask from './experiments/SocialDiscountingTask';
 import RewardSocialComparisonBanditTask from './experiments/RewardSocialComparisonBanditTask/index';
+import EnhancedBanditTask from './experiments/EnhancedBanditTask/index';
 
 const App = () => {
   return (
@@ -49,6 +50,7 @@ const App = () => {
               <Route path="/experiments/public-goods-game" element={<PublicGoodsGame />} />
               <Route path="/experiments/social-discounting-task" element={<SocialDiscountingTask />} />
               <Route path="/experiments/reward-social-comparison-bandit-task" element={<RewardSocialComparisonBanditTask />} />
+              <Route path="/experiments/enhanced-bandit-task" element={<EnhancedBanditTask />} />
             </Routes>
           </main>
         </AnimatePresence>
