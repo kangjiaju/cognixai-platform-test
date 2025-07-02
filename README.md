@@ -1,6 +1,6 @@
-# CognixAI - 智能决策与多模态交互研究平台
+# CogniAND - 智能决策与多模态交互研究平台
 
-CognixAI 是一个创新型研究平台，致力于推进人类决策建模、多智能体模拟和脑机接口多模态融合研究。该平台提供了一系列经典和现代的心理学实验，用于研究人类决策过程和认知机制。
+CogniAND 是一个创新型研究平台，致力于推进人类决策建模、多智能体模拟和脑机接口多模态融合研究。该平台提供了一系列经典和现代的心理学实验，用于研究人类决策过程和认知机制。
 
 ## 项目动机
 
@@ -99,7 +99,7 @@ npm run build
 
 ## 联系方式
 
-- 研究咨询: research@cognixai.research
+- 研究咨询: research@CogniAND.research
 - 技术支持: support@cognixai.research
 - 媒体咨询: media@cognixai.research
 
